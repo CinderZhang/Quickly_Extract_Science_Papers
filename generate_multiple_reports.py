@@ -8,11 +8,14 @@ import PyPDF2
 
 
 prompts = [
+
+'Save the title and authors of this paper.',
+
 'Can you give me a very clear explanation of the core assertions, implications, and mechanics elucidated in this paper?',
 
 "Can you explain the value of this in basic terms? Like you're talking to a CEO. So what? What's the bottom line here?",
 
-'Can you give me an analogy or metaphor that will help explain this to a broad audience.',
+#'Can you give me an analogy or metaphor that will help explain this to a broad audience.',
 ]
 
 

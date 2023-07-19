@@ -14,7 +14,8 @@ for file in files:
     with open(file, 'r', encoding='utf8') as f:
         combined_text += f.read() + '\n'  # add a newline character between texts from different files
 # %% save the combined text
-with open('combined_text.txt', 'w') as f:
+combined_file = 'bondmarket_combined_text.txt'
+with open(combined_file, 'w') as f:
     f.write(combined_text)
 # %% reorganize the combined text based on topics
 import nltk
